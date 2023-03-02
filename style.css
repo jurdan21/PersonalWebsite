@@ -266,6 +266,12 @@ body{
     gap: 16px;
     background: #2C2C2C;
     margin: 0;
+    cursor: pointer;
+}
+
+.experience:hover{
+    box-shadow: 0px 8px 40px #1B1B1B;
+    
 }
 
 .experience-title{
