@@ -14,6 +14,7 @@ body{
     padding: 0;
     margin: 0 auto;
     max-width: 1440px;
+    background-color: #232323;
 }
 
 
@@ -47,7 +48,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 1px;
-    color: #6E6E6E;
+    color: #999999;
 }
 
 .menu a:hover{
@@ -56,7 +57,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 1px;
-    color: #0E0E0E;
+    color: #ffffff;
 }
 
 .btn-resume{
@@ -66,7 +67,7 @@ body{
     gap: 8px;
     width: 120px;
     height: 48px;
-    background: #D2FF3C;
+    background: #F1A2B7;
     border: none;
     font-weight: 500;
     font-size: 16px;
@@ -77,7 +78,8 @@ body{
 }
 
 .btn-resume:hover{
-    background-color: #ABCF31;
+    background-color: #C48495;
+    color: #ffffff;
 }
 
 .hero{
@@ -91,11 +93,11 @@ body{
 .desc-hero{
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 52px;
-    letter-spacing: 1px;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    color: #3E3E3E;
+    color: #F1A2B7;
 }
 
 .home-work{
@@ -141,7 +143,7 @@ body{
     filter: grayscale(1) opacity(64%); /* Microsoft Edge and Firefox 35+ */
 }
 .img:hover{
-    box-shadow: 0 0 0 5px #E0FF77;
+    box-shadow: 0 0 0 5px #F5BECD;
     transition: .5s ease;
 }
 .image:hover{
@@ -161,7 +163,7 @@ body{
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 1px;
-    color: #0E0E0E;
+    color: #ffffff;
     margin-top: 20px;
     margin-bottom: 4px;
 }
@@ -172,13 +174,13 @@ body{
     font-size: 20px;
     line-height: 32px;
     letter-spacing: 0.7px;
-    color: #6E6E6E;
+    color: #999999;
 }
 
 .scroll {
     white-space: nowrap;
     margin: 0;
-    background: #D2FF3C;
+    background: #F1A2B7;
     overflow: hidden;
     padding: 16px 0px;
 
@@ -196,7 +198,7 @@ body{
     line-height: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #0E0E0E;
+    color: #232323;
     padding: 0;
     margin: 0;
   }
@@ -244,7 +246,7 @@ body{
     line-height: 92px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #0E0E0E;
+    color: #ffffff;
     margin: 0;
 }
 
@@ -262,7 +264,7 @@ body{
     flex-direction: column;
     padding: 48px;
     gap: 16px;
-    background: #F9F9F9;
+    background: #2C2C2C;
     margin: 0;
 }
 
@@ -279,7 +281,7 @@ body{
     line-height: 32px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #0E0E0E;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -291,7 +293,7 @@ body{
     line-height: 24px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #6E6E6E;
+    color: #999999;
     margin: 0;
     padding: 0;
 }
@@ -313,7 +315,7 @@ body{
     font-size: 20px;
     line-height: 32px;
     letter-spacing: 0.5px;
-    color: #6E6E6E;
+    color: #999999;
     margin: 0;
     padding: 0;
 }
@@ -325,7 +327,8 @@ body{
     align-items: center;
     padding: 64px;
     gap: 10px;
-    background: #0E0E0E;
+    background: #232323;
+    box-shadow: inset 0px 0px 1px rgba(255, 255, 255, 0.25);
 }
 
 .copyright{
@@ -335,7 +338,7 @@ body{
     line-height: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #9F9F9F;
+    color: #999999;
     margin: 0;
     padding: 0;
 
@@ -351,5 +354,5 @@ body{
 }
 
 .icon svg:hover path{
-    fill: #D2FF3C;
+    fill: #F1A2B7;
 }
