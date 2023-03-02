@@ -328,7 +328,6 @@ body{
     padding: 64px;
     gap: 10px;
     background: #232323;
-    box-shadow: inset 0px 0px 1px rgba(255, 255, 255, 0.25);
 }
 
 .copyright{
