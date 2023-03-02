@@ -143,8 +143,8 @@ body{
     filter: grayscale(1) opacity(64%); /* Microsoft Edge and Firefox 35+ */
 }
 .img:hover{
-    box-shadow: 0 0 0 5px #F5BECD;
-    transition: .5s ease;
+    /* box-shadow: 0 0 0 5px #F5BECD;
+    transition: .5s ease; */
 }
 .image:hover{
     -webkit-filter: grayscale(0);
