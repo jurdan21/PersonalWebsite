@@ -26,12 +26,14 @@ body{
     align-items: center;
     height: 96px;
     padding : 0px 64px;
+    max-width: 100%;
 }
 
 .navigasi{
     display: flex;
     flex-direction: row;
     gap: 48px;
+    align-items: center;
 }
 
 .menu{
@@ -444,11 +446,11 @@ body {
 .container-work{
     max-width: 100%;
     gap: 16px;
-    
+    margin: 0 auto;
 }
 
 .card-work{
-    width: 100%;
+    max-width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -465,10 +467,24 @@ body {
     max-width: 100%;
 }
 
-.image:hover{
-    -webkit-filter: grayscale(0);
-    filter: none;
-    transform: scale(1.1);
+.card-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.card-desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #999999;
 }
 
 .experience-container{
@@ -478,6 +494,7 @@ body {
 .footer-container{
     display: none;
 }
+
   
 
 }
