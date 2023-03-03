@@ -652,8 +652,8 @@ body {
 .desc-hero{
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 40px;
+    line-height: 48px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #F1A2B7
@@ -691,7 +691,7 @@ body {
     max-width: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
+
 }
 .image{
     object-fit: cover;
@@ -702,8 +702,8 @@ body {
 .card-title{
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 28px;
     letter-spacing: 1px;
     color: #ffffff;
     margin-top: 20px;
@@ -713,8 +713,8 @@ body {
 .card-desc{
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 24px;
     letter-spacing: 0.7px;
     color: #999999;
 }
