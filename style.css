@@ -488,11 +488,127 @@ body {
 }
 
 .experience-container{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+    padding: 28px 16px;
+    gap: 28px;
+
+}
+.experience-title1{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+    gap: 12px;
+}
+.exp-title{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
+.experience-list{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+    gap: 24px;
+}
+
+
+.experience{
+    margin: 0;
+    padding: 28px;
+    max-width: 100%;
+}
+
+.experience-title{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 8px;
+}
+.title-exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    margin: 0;
+}
+.title-exp .title-desc{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+}
+
+.exp-desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14x;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+}
+
+.experience-title p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+
 .footer-container{
-    display: none;
+    max-width: 100%;
+    padding: 16px 28px;
+    margin: 0;
+}
+
+.copyright{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 8px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.icon svg{
+    height: 14px;
+    width: 14px;
 }
 
   
