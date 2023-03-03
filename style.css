@@ -679,18 +679,21 @@ body {
     max-width: 100%;
     gap: 40px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .card-work{
     max-width: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .img{
-    max-width: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
+    height: 100%;
 
 }
 .image{
