@@ -637,7 +637,7 @@ body {
 
 .hero{
     display: flex;
-    padding: 64px 64px;
+    padding: 40px 64px;
     margin: 0;
     gap: 12px;
     max-width: 100%;
@@ -664,10 +664,10 @@ body {
     max-width: 100%;
 }
 .home-work{
-    padding: 64px;
+    padding: 40px 64px;
     margin: 0;
     max-width: 100%;
-    gap: 24px;
+    gap: 40px;
 }
 .scroll{
     padding: 16px 0;
