@@ -411,10 +411,7 @@ body {
     color: #F1A2B7
 }
 
-.container-work{
-    display: flex;
-    flex-direction: column;
-}
+
 .home-work{
     padding: 16px;
     margin: 0;
@@ -444,6 +441,8 @@ body {
   }
 
 .container-work{
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     gap: 24px;
     margin: 0 auto;
@@ -615,3 +614,120 @@ body {
 
 }
 
+@media only screen and (min-width: 761px) {
+    body {
+        background-color: #232323;
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+
+.header{
+    padding: 16px 64px;
+    margin: 0;
+    height: auto;
+    max-width: 100%;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.hero{
+    display: flex;
+    padding: 64px 64px;
+    margin: 0;
+    gap: 12px;
+    max-width: 100%;
+
+}
+
+.hero svg{
+   
+    height:auto;
+    width: 100%;
+}
+.desc-hero{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #F1A2B7
+}
+.container-work{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+.home-work{
+    padding: 64px;
+    margin: 0;
+    max-width: 100%;
+    gap: 24px;
+}
+.scroll{
+    padding: 16px 0;
+    width: 100%;
+}
+.container-work{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.card-work{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.image{
+    object-fit: cover;
+    
+    max-width: 100%;
+}
+
+.card-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.card-desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.7px;
+    color: #999999;
+}
+
+.exp-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 68px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+}
+
+}
