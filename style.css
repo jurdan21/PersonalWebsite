@@ -2,7 +2,7 @@
  
 
 *,html{
-    margin: o;
+    margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
@@ -361,3 +361,129 @@ body{
 .icon svg:hover path{
     fill: #F1A2B7;
 }
+
+@media only screen and (max-width: 760px) {
+body {
+      background-color: #232323;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+
+.header{
+    padding: 16px;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+}
+
+.navigasi{
+    display: none;
+}
+
+.hero{
+    display: flex;
+    padding: 16px 16px;
+    margin: 0;
+    gap: 8px;
+    width: 100%;
+
+}
+
+.hero svg{
+   
+    height:auto;
+    width: 100%;
+}
+.desc-hero{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #F1A2B7
+}
+
+.container-work{
+    display: flex;
+    flex-direction: column;
+}
+.home-work{
+    padding: 16px;
+    margin: 0;
+    width: 100%;
+    gap: 24px;
+}
+.scroll{
+    padding: 8px 0;
+    width: 100%;
+}
+
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+.scroll p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #232323;
+    padding: 0;
+    margin: 0;
+  }
+
+.container-work{
+    width: 100%;
+    gap: 16px;
+    
+}
+
+.card-work{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.image{
+    object-fit: cover;
+    height: 340px;
+    width: 100%;
+
+    transform: scale(1);
+    filter: rgb(214, 214, 214); /* IE6-9 */
+    -webkit-filter: grayscale(1) opacity(64%); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1) opacity(64%);
+}
+
+.image:hover{
+    -webkit-filter: grayscale(0);
+    filter: none;
+    transform: scale(1.1);
+}
+
+.experience-container{
+    display: none;
+}
+
+.footer-container{
+    display: none;
+}
+  
+
+}
+
